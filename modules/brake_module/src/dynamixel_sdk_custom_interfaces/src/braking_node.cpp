@@ -22,7 +22,7 @@
 
 // Default setting
 #define BAUDRATE 57600  // Default Baudrate of DYNAMIXEL X series
-#define DEVICE_NAME "/dev/ttyUSB0"  // [Linux]: "/dev/ttyUSB*", [Windows]: "COM*"
+#define DEVICE_NAME "/dev/rear_brake"  // [Linux]: "/dev/ttyUSB*", [Windows]: "COM*"
 
 #define MAX_CURRRENT 38 // XM540-W270-T max current 2.69(mA) 
 // #define MOTOR_DIRECTION -1 //
