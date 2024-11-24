@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+        "joy_controll = joy_stick_module.joy_stick_module:main",
         ],
     },
 )

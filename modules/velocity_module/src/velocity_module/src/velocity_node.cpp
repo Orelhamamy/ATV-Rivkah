@@ -11,7 +11,7 @@
 
 VelocityNode::VelocityNode() : Node(NODE_NAME){
     RCLCPP_INFO(this->get_logger(), "Run %s.", NODE_NAME);
-    this->declare_parameter<std::string>("vel_usb_port", "/dev/ttyACM0");
+    this->declare_parameter<std::string>("vel_usb_port", "/dev/ThrottleTeensy");
     this->declare_parameter<std::string>("vel_topic", "/vel_cmd");
     this->declare_parameter("qos_depth", 10);
     this->declare_parameter("baund_rate", 57600);
