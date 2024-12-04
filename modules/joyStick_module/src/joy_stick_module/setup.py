@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'joy_msg_sub_pub = joy_stick_module.joy_msg_pub:main',
         ],
     },
 )
